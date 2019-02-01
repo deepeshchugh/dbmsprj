@@ -1,6 +1,8 @@
 # dbmsprj
-Project for CEC06 Sem 3
+<p>Project for CEC06 Sem 3</p>
 <b>Made By:</b>
-  Deepesh Chugh
-  Saahil Hussain
-  Nipun Harjai
+<ul>
+  <li>Deepesh Chugh</li>
+  <li>Saahil Hussain</li>
+  <li>Nipun Harjai</li>
+</ul>
