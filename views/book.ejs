@@ -1,0 +1,18 @@
+<% include partials/header %>
+<form action = '/reserve' method = "POST">
+    <p>Please select a room type
+    <select name="rselect" required>
+        <% Array.from(result).forEach(function(e){ %>
+            <option value = <%= e.room_type %> > <%= e.room_type %></option>
+        <% }); %>
+      </select></p>
+    <p>Choose a check in date:
+        <input type = "date" placeholder = "checkin" name = "checkin" required> 
+    </p>
+    <p>Choose a check out date:
+        <input type = "date" placeholder = "checkout" name = "checkout" required>
+    </p>
+     <br> 
+    <button>enter customer details</button>
+</form>
+<% include partials/footer %>

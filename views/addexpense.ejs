@@ -1,0 +1,9 @@
+<% include partials/header %>
+<form action = '/addinvoice' method = "POST">
+<h1>Enter Customer Aadhar Number</h1>
+<input type = "number" placeholder = "Aadhar" name = "aadhar" required> 
+<input type = "text" placeholder = "Description" name = "service_description" required> 
+<input type = "number" placeholder = "Charge" name = "Charge" required> 
+<button>Add Invoice</button>
+</form>
+<% include partials/footer %>

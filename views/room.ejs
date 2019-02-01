@@ -1,0 +1,8 @@
+<% include partials/header %>
+<h1> Listing of all types of rooms: </h1>
+<% Array.from(result).forEach(function(e){ %>
+     <p><h2>Name : <%= e.room_type %></h2> 
+     Cost Per Night : <%= e.cost_per_night %> 
+     Size in square meters : <%= e.size %></p>
+<% }); %>
+<% include partials/footer %>

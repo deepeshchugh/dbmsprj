@@ -1,0 +1,25 @@
+<% include partials/header %>
+<form action = '/addreservation' method = "POST">
+    <h1>Enter Customer Details</h1>
+    <p>Enter Name:
+            <input type = "text" placeholder = "first name" name = "fname" required> 
+        </p>
+        <p>
+            <input type = "text" placeholder = "last name" name = "lname" required>
+        </p><p>Enter Aadhar number:
+            <input type = "number" placeholder = "Aadhar" name = "aadhar" required> 
+        </p>
+        <p>Enter Address:
+            <input type = "text" placeholder = "address" name = "address" required>
+        </p>
+        <p>Enter date of birth:
+                <input type = "date" placeholder = "dob" name = "dob" required> 
+            </p>
+        <p>Enter Phone number:
+                    <input type = "number" placeholder = "phone number" name = "phone_number" required> 
+        </p>
+        
+    </p>
+    <button>reserve</button>
+</form>
+<% include partials/footer %>

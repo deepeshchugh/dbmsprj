@@ -1,0 +1,11 @@
+<% include partials/header %>
+<h1> Customer Invoices:</h1>
+<% Array.from(result).forEach(function(e){ %>
+    <li><p>Service Description : <%= e.service_description %>
+     Charge : <%= e.Charge %></p> </li>
+<% }); %>
+<p>Total amount due:<%= total %></p>
+<form action = '/addcheckout' method = "POST">
+    <button>confirm payment</button>
+    </form>
+<% include partials/footer %>
